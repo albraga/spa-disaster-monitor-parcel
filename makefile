@@ -43,7 +43,7 @@ build:
 docs:
 	rm -rfv docs
 	mv dist docs
-	@echo sed -i 's+src="/js+src="js+g' docs/index.html
+	sed -i 's+src="/js+src="js+g' docs/index.html
 
 .PHONY: serve
 serve:
