@@ -1,0 +1,19 @@
+{
+  "name": "spa-disaster-monitor-parcel",
+  "version": "1.0.0",
+  "description": "[http://albraga.github.io/spa-disaster-monitor-parcel/](http://albraga.github.io/spa-disaster-monitor-parcel/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "vue": "^3.0.2"
+  }
+}
