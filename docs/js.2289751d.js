@@ -51,4 +51,4 @@ module.exports=t,t.default=t,t.stable=o,t.stableStringify=o;var r=[],e=[];functi
 },{"./countries":"QNx4","superagent":"jn4M"}],"QvaY":[function(require,module,exports) {
 "use strict";var e=require("vue/dist/vue.esm-bundler.js"),t=u(require("./api.js"));function u(e){return e&&e.__esModule?e:{default:e}}var n={data:function(){return{affected:[]}},beforeCreate:function(){var e=this;(0,t.default)().then(function(t){e.affected=t})},mounted:function(){}},r=(0,e.createApp)(n);r.mount("#app");
 },{"vue/dist/vue.esm-bundler.js":"x0sI","./api.js":"cZF8"}]},{},["QvaY"], null)
-//# sourceMappingURL=/js.2289751d.js.map
+//# sourceMappingURL=js.2289751d.js.map

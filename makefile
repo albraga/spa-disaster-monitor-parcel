@@ -36,14 +36,13 @@ dev:
 
 .PHONY: build
 build:
-	parcel build src/index.html
-	$(MAKE) docs
+	parcel build src/index.html --out-dir docs --public-url ./
 
 .PHONY: docs
 docs:
 	rm -rfv docs
 	mv dist docs
-	sed -i 's+src="/js+src="js+g' docs/index.html
+	@echo sed -i 's+src="/js+src="js+g' docs/index.html
 
 .PHONY: serve
 serve:
